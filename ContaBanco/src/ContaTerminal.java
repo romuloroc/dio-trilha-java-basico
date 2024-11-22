@@ -12,6 +12,7 @@ public class ContaTerminal {
 
         System.out.println("Digite o número da conta: ");
         int numero = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.println("Digite o seu nome: ");
         String nomeCliente = scanner.nextLine();
